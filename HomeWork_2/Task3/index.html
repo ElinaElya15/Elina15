@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task3_Forms</title>
+  </head>
+  <body>
+    <header>
+      <a href="../../index.html">На головну</a>
+    </header>
+    <form>
+      <div>
+        <h2>Про себе:</h2>
+      </div>
+      <div>
+        <fieldset>
+          <legend>Загальна інформація</legend>
+          <label for="name">ПІБ</label>
+          <input type="text" /><br />
+          <label for="adress">Адреса</label>
+          <input type="text" /><br />
+          <label for="age">Вік</label>
+          <input type="text" /><br />
+          <label for="mail">Пошта</label>
+          <input type="text" /><br />
+        </fieldset>
+      </div>
+      <div>
+        <h2>Місце роботи:</h2>
+      </div>
+      <div>
+        <p>Адреса організації:</p>
+        <textarea
+          name="org"
+          cols="20px"
+          rows="4px"
+          placeholder="Введіть текст"
+        ></textarea>
+        <p>Стаж роботи:</p>
+        <select name="work">
+          <option value="1">Менше року</option>
+          <option value="2">Більше року</option>
+          <option value="3">До 5 років</option>
+          <option value="4">До 10 років</option>
+          <option value="5">Більше 10 років</option>
+        </select>
+      </div>
+      <div>
+        <p>Дата початку роботи:</p>
+        <input
+          type="date"
+          name="trip-start"
+          id="start"
+          value="2022-08-01"
+          min="1980-08-01"
+          max="2022-12-31"
+        />
+        <hr />
+      </div>
+      <div>
+        <h2>Статистичне опитування:</h2>
+      </div>
+      <div>
+        <p>Оцініть роботу президента:</p>
+        <input type="range" min="1" max="100" />
+      </div>
+      <div>
+        <p>Коментар стосовно останніх виборів:</p>
+        <textarea
+          name="org"
+          cols="70px"
+          rows="10px"
+          placeholder="Введіть текст"
+        ></textarea>
+      </div>
+      <div>
+        <p>Найкращий місяць для відпустки:</p>
+        <p><input type="radio" name="vacation" />Літо</p>
+        <p><input type="radio" name="vacation" />Осінь</p>
+        <p><input type="radio" name="vacation" />Зима</p>
+        <p><input type="radio" name="vacation" />Весна</p>
+        <hr />
+      </div>
+      <div>
+        <p>Пріорітети у виборі кави:</p>
+        <p><input type="radio" name="drink" />Еспресо</p>
+        <p><input type="radio" name="drink" />Американо</p>
+        <p><input type="radio" name="drink" />Капучино</p>
+        <p><input type="radio" name="drink" />Латте</p>
+        <hr />
+      </div>
+      <div>
+        <p>Місце відпочинку:</p>
+        <p><input type="checkbox" name="country" />Україна</p>
+        <p><input type="checkbox" name="country" />Європа</p>
+        <p><input type="checkbox" name="country" />Азія</p>
+        <p><input type="checkbox" name="country" />Америка</p>
+        <p><input type="checkbox" name="country" />Африка</p>
+        <p><input type="checkbox" name="country" />Океанія</p>
+        <hr />
+      </div>
+      <div>
+        <p>Вибір автомобіля:</p>
+        <select name="auto">
+          <option value="auto1">BMW</option>
+          <option value="auto2">Shkoda</option>
+          <option value="auto3">Toyota</option>
+          <option value="auto4">Audi</option>
+          <option value="auto5">Nissan</option>
+        </select>
+      </div>
+      <div>
+        <p>Вибір овочів:</p>
+        <select name="vegetables">
+          <optgroup lebel="Овочі">
+            <option value="овоч1">Помідор</option>
+            <option value="овоч2">Огірок</option>
+            <option value="овоч3">Морква</option>
+            <option value="овоч4">Перець</option>
+          </optgroup>
+          <optgroup lebel="Фрукти">
+            <option value="Фрукт1">Груша</option>
+            <option value="Фрукт2">Нектарин</option>
+            <option value="Фрукт3">Апельсин</option>
+            <option value="Фрукт4">Банан</option>
+          </optgroup>
+          <optgroup lebel="Ягоди">
+            <option value="Ягода1">Полуниця</option>
+            <option value="Ягода2">Малина</option>
+            <option value="Ягода3">Лохина</option>
+            <option value="Ягода4">Чорниця</option>
+          </optgroup>
+        </select>
+      </div>
+      <div>
+        <p><input type="submit" /> <input type="reset" /></p>
+      </div>
+    </form>
+  </body>
+</html>
