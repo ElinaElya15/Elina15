@@ -1,0 +1,183 @@
+#h2_1{
+    margin-left: 200px;
+    color: blue;
+}
+.pentagon{
+    margin-left: 100px;
+    color: red;
+    margin-bottom: 10px;
+}
+.pentagon span{
+    font-size: 12px;
+}
+.pentagon1{
+    color: red;
+}
+.match{
+    margin-left: 100px;
+    color:rgb(223, 219, 33);
+    margin-bottom: 10px;
+}
+.match span{
+    font-size: 12px;
+}
+.match1{
+    color:rgb(223, 219, 33);
+}
+.ukraine{
+    margin-left: 100px;
+    color:grey;
+}
+.ukraine span{
+    font-size: 12px;
+}
+.ukraine1{
+    color:grey;
+}
+.block1{
+    text-align: right;
+    margin-right: 40px;
+    color: green;
+}
+#h2_2{
+    margin-left: 200px;
+    color: blue;
+}
+.border{
+    margin-left: 150px;
+    color:red;
+}
+.border span {
+    font-size: 12px;
+}
+.border1{
+    color:red;
+}
+.border::first-letter{
+    font-size: 12px;
+}
+section li::marker{
+    font-size: 2em;
+}
+section li:nth-child(2){
+    color:rgb(0, 0, 0);
+}
+section li:nth-child(3){
+    color:rgb(0, 0, 0);
+}
+section li:nth-child(4){
+    color:rgb(0, 0, 0);
+}
+section li:nth-child(5){
+    color:rgb(0, 0, 0);
+}
+.corruption{
+    margin-left: 150px;
+    color: rgb(223, 219, 33);
+}
+.corruption span{
+    color: rgb(223, 219, 33);
+    font-size: 12px;
+}
+.corruption1{
+    color: rgb(223, 219, 33);
+}
+.sitnik{
+    margin-left: 150px;
+}
+.sitnik span{
+    font-size: 12px;
+    color: rgb(39, 39, 231);
+}
+.sitnik1{
+    color: rgb(39, 39, 231);
+}
+.security{
+    margin-left: 150px;
+}
+.security span{
+    font-size: 12px;
+    color: grey;
+}
+.security1{
+    color:rgb(148, 145, 145);
+}
+.plan{
+    margin-left: 150px;
+}
+.plan span{
+    font-size:12px;
+    color:grey;
+}
+.plan1{
+    color:rgb(148, 145, 145) ;
+}
+.block2{
+     text-align: right;
+    margin-right: 40px;
+    color: green;
+}
+#h2_3{
+    margin-left: 200px;
+    color: blue;
+}
+.china{
+    margin-left: 150px;
+    color:red;
+}
+.china span{
+    font-size: 12px;
+}
+.china1{
+    color: red;
+}
+.coins{
+    margin-left: 150px;
+    color: rgb(223, 219, 33);
+}
+
+.coins span{
+    font-size: 12px;
+    color:rgb(223, 219, 33) ;
+}
+.coins1{
+    color:rgb(223, 219, 33);
+}
+.sugar{
+    margin-left: 150px;
+    color:gray;
+}
+.sugar span{
+    font-size: 12px;
+    color: gray;
+}
+.sugar1{
+    color: grey;
+}
+.business{
+    margin-left: 150px;
+    color: rgb(0, 217, 255);
+}
+.business span{
+    font-size: 12px;
+    color:rgb(0, 217, 255) ;
+}
+.business1{
+    color: rgb(0, 217, 255);
+}
+.default{
+    margin-left: 150px;
+    color: grey;
+}
+.default span{
+    font-size: 12px;
+    color: gray;
+}
+.default1{
+    color: gray;
+}
+.block3{
+    text-align: right;
+    margin-right: 40px;
+    color: green;
+}
